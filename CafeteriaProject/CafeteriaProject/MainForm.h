@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Dashboard.h"
+
 namespace CafeteriaProject {
 
     using namespace System;
@@ -76,7 +78,6 @@ namespace CafeteriaProject {
                this->labelLogin->TabIndex = 0;
                this->labelLogin->Text = L"Login";
                this->labelLogin->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-               //this->labelLogin->Click += gcnew System::EventHandler(this, &CafeteriaForm::labelLogin_Click);
                // 
                // labelSubtitle
                // 
@@ -114,6 +115,7 @@ namespace CafeteriaProject {
                this->buttonContinue->TabIndex = 5;
                this->buttonContinue->Text = L"Log in";
                this->buttonContinue->UseVisualStyleBackColor = false;
+               this->buttonContinue->Click += gcnew System::EventHandler(this, &CafeteriaForm::buttonContinue_Click);
                // 
                // textBoxEmail
                // 
@@ -247,5 +249,11 @@ namespace CafeteriaProject {
            #pragma endregion
            private: System::Void CafeteriaForm_Load(System::Object^ sender, System::EventArgs^ e) {
            }
-    };
+           private: System::Void buttonContinue_Click(System::Object^ sender, System::EventArgs^ e) {
+               Dashboard dashboard;
+               this->Hide();
+               dashboard.ShowDialog();
+               
+           }
+};
 }
