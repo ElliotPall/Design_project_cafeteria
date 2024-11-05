@@ -3,3 +3,8 @@ C:\Users\xosi_\OneDrive\Documentos\Repositories\Design_project_cafeteria\Cafeter
 C:\Users\xosi_\OneDrive\Documentos\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\x64\Debug\CafeteriaProject.Dashboard.resources
 C:\Users\xosi_\OneDrive\Documentos\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\x64\Debug\CafeteriaProject.MainForm.resources
 C:\Users\xosi_\OneDrive\Documentos\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\x64\Debug\CafeteriaProject.vcxproj.GenerateResource.cache
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\x64\Debug\CafeteriaProject.vcxproj.AssemblyReference.cache
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\x64\Debug\CafeteriaProject.AddPersonForm.resources
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\x64\Debug\CafeteriaProject.Dashboard.resources
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\x64\Debug\CafeteriaProject.MainForm.resources
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\x64\Debug\CafeteriaProject.vcxproj.GenerateResource.cache
