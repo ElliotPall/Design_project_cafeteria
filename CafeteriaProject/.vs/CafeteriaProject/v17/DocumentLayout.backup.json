@@ -26,12 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,7 +36,7 @@
               "RelativeDocumentMoniker": "CafeteriaProject\\Dashboard.h",
               "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h",
               "RelativeToolTip": "CafeteriaProject\\Dashboard.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-05T03:34:23.212Z",
               "EditorCaption": ""
@@ -54,8 +50,7 @@
               "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\AddPersonForm.h [Design]",
               "RelativeToolTip": "CafeteriaProject\\AddPersonForm.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T03:33:25.242Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-05T03:33:25.242Z"
             },
             {
               "$type": "Document",
@@ -66,8 +61,7 @@
               "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h [Design]",
               "RelativeToolTip": "CafeteriaProject\\Dashboard.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T03:33:23.053Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-05T03:33:23.053Z"
             },
             {
               "$type": "Document",
@@ -78,8 +72,7 @@
               "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h [Design]",
               "RelativeToolTip": "CafeteriaProject\\MainForm.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T03:33:20.815Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-05T03:33:20.815Z"
             }
           ]
         }
