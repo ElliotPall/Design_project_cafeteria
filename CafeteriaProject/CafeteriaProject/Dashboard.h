@@ -1,4 +1,4 @@
-/*#pragma once
+#pragma once
 
 namespace CafeteriaProject {
 
@@ -91,7 +91,7 @@ namespace CafeteriaProject {
 
 
 
-    private: System::Windows::Forms::DataGridView^ dataGridView1;
+    private: System::Windows::Forms::DataGridView^ dataGridView;
     private: System::Windows::Forms::DataGridViewTextBoxColumn^ Name;
     private: System::Windows::Forms::DataGridViewTextBoxColumn^ Group;
     private: System::Windows::Forms::DataGridViewTextBoxColumn^ Gender;
@@ -103,72 +103,8 @@ namespace CafeteriaProject {
     private: System::Windows::Forms::TextBox^ textBox2;
     private: System::Windows::Forms::Button^ button5;
     private: System::Windows::Forms::PictureBox^ pictureBox6;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     protected:
-
     protected:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     private:
         /// <summary>
         /// Required designer variable.
@@ -183,11 +119,11 @@ namespace CafeteriaProject {
         void InitializeComponent(void)
         {
             System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Dashboard::typeid));
-            System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle6 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
-            System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle7 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
-            System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle8 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
-            System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle9 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
-            System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle10 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+            System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle1 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+            System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle2 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+            System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle3 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+            System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle4 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
+            System::Windows::Forms::DataGridViewCellStyle^ dataGridViewCellStyle5 = (gcnew System::Windows::Forms::DataGridViewCellStyle());
             this->button3 = (gcnew System::Windows::Forms::Button());
             this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
             this->panel1 = (gcnew System::Windows::Forms::Panel());
@@ -228,7 +164,7 @@ namespace CafeteriaProject {
             this->button5 = (gcnew System::Windows::Forms::Button());
             this->pictureBox6 = (gcnew System::Windows::Forms::PictureBox());
             this->DatabasePannel = (gcnew System::Windows::Forms::Panel());
-            this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
+            this->dataGridView = (gcnew System::Windows::Forms::DataGridView());
             this->Name = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
             this->Group = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
             this->Gender = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
@@ -260,7 +196,7 @@ namespace CafeteriaProject {
             this->panel13->SuspendLayout();
             (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->BeginInit();
             this->DatabasePannel->SuspendLayout();
-            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView))->BeginInit();
             this->DatabaseHeadGreayPanel->SuspendLayout();
             this->SuspendLayout();
             // 
@@ -394,6 +330,7 @@ namespace CafeteriaProject {
             // 
             // panel2
             // 
+            this->panel2->Controls->Add(this->HomePannel);
             this->panel2->Controls->Add(this->textBox1);
             this->panel2->Controls->Add(this->pictureBox1);
             this->panel2->Dock = System::Windows::Forms::DockStyle::Top;
@@ -412,7 +349,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(255)));
             this->textBox1->Location = System::Drawing::Point(63, 183);
             this->textBox1->Name = L"textBox1";
-            this->textBox1->Size = System::Drawing::Size(166, 27);
+            this->textBox1->Size = System::Drawing::Size(166, 18);
             this->textBox1->TabIndex = 1;
             this->textBox1->Text = L"Name/ID";
             this->textBox1->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -460,7 +397,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox4->Location = System::Drawing::Point(59, 108);
             this->textBox4->Name = L"textBox4";
-            this->textBox4->Size = System::Drawing::Size(147, 59);
+            this->textBox4->Size = System::Drawing::Size(147, 40);
             this->textBox4->TabIndex = 0;
             this->textBox4->Text = L"45561";
             this->textBox4->TextChanged += gcnew System::EventHandler(this, &Dashboard::textBox4_TextChanged);
@@ -476,7 +413,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox11->Location = System::Drawing::Point(25, 108);
             this->textBox11->Name = L"textBox11";
-            this->textBox11->Size = System::Drawing::Size(38, 59);
+            this->textBox11->Size = System::Drawing::Size(38, 40);
             this->textBox11->TabIndex = 2;
             this->textBox11->Text = L"$";
             // 
@@ -491,7 +428,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox5->Location = System::Drawing::Point(41, 189);
             this->textBox5->Name = L"textBox5";
-            this->textBox5->Size = System::Drawing::Size(139, 27);
+            this->textBox5->Size = System::Drawing::Size(139, 18);
             this->textBox5->TabIndex = 1;
             this->textBox5->Text = L"Info";
             // 
@@ -516,7 +453,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(246)));
             this->textBox3->Location = System::Drawing::Point(25, 18);
             this->textBox3->Name = L"textBox3";
-            this->textBox3->Size = System::Drawing::Size(319, 48);
+            this->textBox3->Size = System::Drawing::Size(319, 32);
             this->textBox3->TabIndex = 0;
             this->textBox3->Text = L"Earnings";
             // 
@@ -541,7 +478,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox6->Location = System::Drawing::Point(40, 268);
             this->textBox6->Name = L"textBox6";
-            this->textBox6->Size = System::Drawing::Size(139, 27);
+            this->textBox6->Size = System::Drawing::Size(139, 18);
             this->textBox6->TabIndex = 2;
             this->textBox6->Text = L"Info";
             // 
@@ -566,7 +503,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(246)));
             this->textBox8->Location = System::Drawing::Point(25, 18);
             this->textBox8->Name = L"textBox8";
-            this->textBox8->Size = System::Drawing::Size(299, 48);
+            this->textBox8->Size = System::Drawing::Size(299, 32);
             this->textBox8->TabIndex = 0;
             this->textBox8->Text = L"Customers";
             // 
@@ -611,7 +548,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(246)));
             this->textBox7->Location = System::Drawing::Point(25, 18);
             this->textBox7->Name = L"textBox7";
-            this->textBox7->Size = System::Drawing::Size(330, 48);
+            this->textBox7->Size = System::Drawing::Size(330, 32);
             this->textBox7->TabIndex = 0;
             this->textBox7->Text = L"Download";
             // 
@@ -656,7 +593,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox9->Location = System::Drawing::Point(32, 268);
             this->textBox9->Name = L"textBox9";
-            this->textBox9->Size = System::Drawing::Size(139, 27);
+            this->textBox9->Size = System::Drawing::Size(139, 18);
             this->textBox9->TabIndex = 2;
             this->textBox9->Text = L"Info";
             // 
@@ -683,7 +620,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(246)));
             this->textBox10->Location = System::Drawing::Point(25, 19);
             this->textBox10->Name = L"textBox10";
-            this->textBox10->Size = System::Drawing::Size(299, 48);
+            this->textBox10->Size = System::Drawing::Size(299, 32);
             this->textBox10->TabIndex = 0;
             this->textBox10->Text = L"Graphics";
             // 
@@ -694,7 +631,7 @@ namespace CafeteriaProject {
             this->HomePannel->Controls->Add(this->panel8);
             this->HomePannel->Controls->Add(this->panel6);
             this->HomePannel->Controls->Add(this->panel4);
-            this->HomePannel->Location = System::Drawing::Point(607, 562);
+            this->HomePannel->Location = System::Drawing::Point(293, 1);
             this->HomePannel->Name = L"HomePannel";
             this->HomePannel->Size = System::Drawing::Size(946, 872);
             this->HomePannel->TabIndex = 12;
@@ -722,7 +659,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox2->Location = System::Drawing::Point(48, 34);
             this->textBox2->Name = L"textBox2";
-            this->textBox2->Size = System::Drawing::Size(247, 54);
+            this->textBox2->Size = System::Drawing::Size(247, 36);
             this->textBox2->TabIndex = 1;
             this->textBox2->Text = L"Home";
             // 
@@ -753,8 +690,7 @@ namespace CafeteriaProject {
             // 
             // DatabasePannel
             // 
-            this->DatabasePannel->Controls->Add(this->HomePannel);
-            this->DatabasePannel->Controls->Add(this->dataGridView1);
+            this->DatabasePannel->Controls->Add(this->dataGridView);
             this->DatabasePannel->Controls->Add(this->DatabaseHeadGreayPanel);
             this->DatabasePannel->Location = System::Drawing::Point(294, 0);
             this->DatabasePannel->Name = L"DatabasePannel";
@@ -762,77 +698,74 @@ namespace CafeteriaProject {
             this->DatabasePannel->TabIndex = 13;
             this->DatabasePannel->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Dashboard::DatabasePannel_Paint);
             // 
-            // dataGridView1
+            // dataGridView
             // 
-            dataGridViewCellStyle6->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)),
+            dataGridViewCellStyle1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)),
                 static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)));
-            dataGridViewCellStyle6->Font = (gcnew System::Drawing::Font(L"Nirmala UI", 11));
-            dataGridViewCellStyle6->SelectionBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)),
+            dataGridViewCellStyle1->Font = (gcnew System::Drawing::Font(L"Nirmala UI", 11));
+            dataGridViewCellStyle1->SelectionBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)),
                 static_cast<System::Int32>(static_cast<System::Byte>(58)), static_cast<System::Int32>(static_cast<System::Byte>(138)));
-            this->dataGridView1->AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
-            this->dataGridView1->BackgroundColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(243)),
+            this->dataGridView->AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this->dataGridView->BackgroundColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(243)),
                 static_cast<System::Int32>(static_cast<System::Byte>(244)), static_cast<System::Int32>(static_cast<System::Byte>(246)));
-            this->dataGridView1->BorderStyle = System::Windows::Forms::BorderStyle::None;
-            this->dataGridView1->CellBorderStyle = System::Windows::Forms::DataGridViewCellBorderStyle::RaisedHorizontal;
-            this->dataGridView1->ColumnHeadersBorderStyle = System::Windows::Forms::DataGridViewHeaderBorderStyle::None;
-            dataGridViewCellStyle7->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleCenter;
-            dataGridViewCellStyle7->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
+            this->dataGridView->BorderStyle = System::Windows::Forms::BorderStyle::None;
+            this->dataGridView->CellBorderStyle = System::Windows::Forms::DataGridViewCellBorderStyle::RaisedHorizontal;
+            this->dataGridView->ColumnHeadersBorderStyle = System::Windows::Forms::DataGridViewHeaderBorderStyle::None;
+            dataGridViewCellStyle2->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleCenter;
+            dataGridViewCellStyle2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
-            dataGridViewCellStyle7->Font = (gcnew System::Drawing::Font(L"Nirmala UI", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+            dataGridViewCellStyle2->Font = (gcnew System::Drawing::Font(L"Nirmala UI", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            dataGridViewCellStyle7->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(243)),
+            dataGridViewCellStyle2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(243)),
                 static_cast<System::Int32>(static_cast<System::Byte>(244)), static_cast<System::Int32>(static_cast<System::Byte>(246)));
-            dataGridViewCellStyle7->Padding = System::Windows::Forms::Padding(10, 15, 10, 15);
-            dataGridViewCellStyle7->SelectionBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)),
+            dataGridViewCellStyle2->Padding = System::Windows::Forms::Padding(10, 15, 10, 15);
+            dataGridViewCellStyle2->SelectionBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)),
                 static_cast<System::Int32>(static_cast<System::Byte>(58)), static_cast<System::Int32>(static_cast<System::Byte>(138)));
-            dataGridViewCellStyle7->SelectionForeColor = System::Drawing::SystemColors::HighlightText;
-            dataGridViewCellStyle7->WrapMode = System::Windows::Forms::DataGridViewTriState::True;
-            this->dataGridView1->ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            this->dataGridView1->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-            this->dataGridView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(4) {
+            dataGridViewCellStyle2->SelectionForeColor = System::Drawing::SystemColors::HighlightText;
+            dataGridViewCellStyle2->WrapMode = System::Windows::Forms::DataGridViewTriState::True;
+            this->dataGridView->ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this->dataGridView->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
+            this->dataGridView->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(4) {
                 this->Name, this->Group,
                     this->Gender, this->Account
             });
-            dataGridViewCellStyle8->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleCenter;
-            dataGridViewCellStyle8->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(243)),
+            dataGridViewCellStyle3->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleCenter;
+            dataGridViewCellStyle3->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(243)),
                 static_cast<System::Int32>(static_cast<System::Byte>(244)), static_cast<System::Int32>(static_cast<System::Byte>(246)));
-            dataGridViewCellStyle8->Font = (gcnew System::Drawing::Font(L"Nirmala UI", 11));
-            dataGridViewCellStyle8->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
+            dataGridViewCellStyle3->Font = (gcnew System::Drawing::Font(L"Nirmala UI", 11));
+            dataGridViewCellStyle3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
-            dataGridViewCellStyle8->SelectionBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(243)),
+            dataGridViewCellStyle3->SelectionBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(243)),
                 static_cast<System::Int32>(static_cast<System::Byte>(244)), static_cast<System::Int32>(static_cast<System::Byte>(246)));
-            dataGridViewCellStyle8->SelectionForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)),
+            dataGridViewCellStyle3->SelectionForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)),
                 static_cast<System::Int32>(static_cast<System::Byte>(58)), static_cast<System::Int32>(static_cast<System::Byte>(138)));
-            dataGridViewCellStyle8->WrapMode = System::Windows::Forms::DataGridViewTriState::False;
-            this->dataGridView1->DefaultCellStyle = dataGridViewCellStyle8;
-            this->dataGridView1->EnableHeadersVisualStyles = false;
-            this->dataGridView1->GridColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
+            dataGridViewCellStyle3->WrapMode = System::Windows::Forms::DataGridViewTriState::False;
+            this->dataGridView->DefaultCellStyle = dataGridViewCellStyle3;
+            this->dataGridView->EnableHeadersVisualStyles = false;
+            this->dataGridView->GridColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
-            this->dataGridView1->Location = System::Drawing::Point(0, 126);
-            this->dataGridView1->Name = L"dataGridView1";
-            dataGridViewCellStyle9->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleCenter;
-            dataGridViewCellStyle9->BackColor = System::Drawing::SystemColors::Control;
-            dataGridViewCellStyle9->Font = (gcnew System::Drawing::Font(L"Nirmala UI", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+            this->dataGridView->Location = System::Drawing::Point(0, 126);
+            this->dataGridView->Name = L"dataGridView";
+            dataGridViewCellStyle4->Alignment = System::Windows::Forms::DataGridViewContentAlignment::MiddleCenter;
+            dataGridViewCellStyle4->BackColor = System::Drawing::SystemColors::Control;
+            dataGridViewCellStyle4->Font = (gcnew System::Drawing::Font(L"Nirmala UI", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            dataGridViewCellStyle9->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
+            dataGridViewCellStyle4->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
-            dataGridViewCellStyle9->SelectionBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)),
+            dataGridViewCellStyle4->SelectionBackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)),
                 static_cast<System::Int32>(static_cast<System::Byte>(58)), static_cast<System::Int32>(static_cast<System::Byte>(138)));
-            dataGridViewCellStyle9->SelectionForeColor = System::Drawing::SystemColors::HighlightText;
-            dataGridViewCellStyle9->WrapMode = System::Windows::Forms::DataGridViewTriState::True;
-            this->dataGridView1->RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
-            this->dataGridView1->RowHeadersVisible = false;
-            this->dataGridView1->RowHeadersWidth = 62;
-            dataGridViewCellStyle10->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)),
-                static_cast<System::Int32>(static_cast<System::Byte>(58)), static_cast<System::Int32>(static_cast<System::Byte>(138)));
-            this->dataGridView1->RowsDefaultCellStyle = dataGridViewCellStyle10;
-            this->dataGridView1->RowTemplate->Height = 40;
-            this->dataGridView1->Size = System::Drawing::Size(946, 654);
-            this->dataGridView1->TabIndex = 10;
-            this->dataGridView1->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Dashboard::dataGridView1_CellContentClick_2);
-            //this->dataGridView1.Rows.Add("Josias Cabrera", "TAC", "Male", "30");
-            //this->dataGridView1.Rows.Add("Josias Cabrera", "TAC", "Male", "30");
-            //this->dataGridView1.Rows.Add("Josias Cabrera", "TAC", "Male", "30");
+            dataGridViewCellStyle4->SelectionForeColor = System::Drawing::SystemColors::HighlightText;
+            dataGridViewCellStyle4->WrapMode = System::Windows::Forms::DataGridViewTriState::True;
+            this->dataGridView->RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this->dataGridView->RowHeadersVisible = false;
+            this->dataGridView->RowHeadersWidth = 62;
+            dataGridViewCellStyle5->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
+                static_cast<System::Int32>(static_cast<System::Byte>(138)));
+            this->dataGridView->RowsDefaultCellStyle = dataGridViewCellStyle5;
+            this->dataGridView->RowTemplate->Height = 40;
+            this->dataGridView->Size = System::Drawing::Size(946, 654);
+            this->dataGridView->TabIndex = 10;
+            this->dataGridView->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Dashboard::dataGridView1_CellContentClick_2);
             // 
             // Name
             // 
@@ -905,7 +838,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox21->Location = System::Drawing::Point(66, 33);
             this->textBox21->Name = L"textBox21";
-            this->textBox21->Size = System::Drawing::Size(247, 54);
+            this->textBox21->Size = System::Drawing::Size(247, 36);
             this->textBox21->TabIndex = 1;
             this->textBox21->Text = L"Database";
             // 
@@ -918,7 +851,7 @@ namespace CafeteriaProject {
             this->ClientSize = System::Drawing::Size(1240, 872);
             this->Controls->Add(this->DatabasePannel);
             this->Controls->Add(this->panel1);
-            this->Name = L"Dashboard";
+            //this->Name = L"Dashboard";
             this->Text = L"Dashboard";
             this->Load += gcnew System::EventHandler(this, &Dashboard::Dashboard_Load);
             (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
@@ -954,7 +887,7 @@ namespace CafeteriaProject {
             this->panel13->PerformLayout();
             (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->EndInit();
             this->DatabasePannel->ResumeLayout(false);
-            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
+            (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView))->EndInit();
             this->DatabaseHeadGreayPanel->ResumeLayout(false);
             this->DatabaseHeadGreayPanel->PerformLayout();
             this->ResumeLayout(false);
@@ -988,7 +921,7 @@ namespace CafeteriaProject {
     }
 };
 }
-{
+/*{
     // Initialize the Form
     this.Text = "Table Grid Example";
     this.Size = new System.Drawing.Size(800, 600);
@@ -1014,14 +947,18 @@ namespace CafeteriaProject {
 
     // Add the DataGridView to the Form
     this.Controls.Add(dataGridView);
-}
-
-[STAThread]
-static void Main()
-{
-    Application.EnableVisualStyles();
-    Application.SetCompatibleTextRenderingDefault(false);
-    Application.Run(new MainForm());
-}
-    }
 }*/
+
+//[STAThread]
+/*static void Main()
+{
+    using namespace System;
+    using namespace System::Windows::Forms;
+
+    Application::EnableVisualStyles();
+    Application::SetCompatibleTextRenderingDefault(false);
+    CafeteriaProject::Dashboard dashboard;
+    Application::Run(% dashboard);
+}*/
+    //}
+//}
