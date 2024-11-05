@@ -1,5 +1,6 @@
 ﻿  Dashboard.cpp
   MainForm.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Generating Code...
   Dashboard.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  CafeteriaProject.vcxproj -> C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\x64\Debug\CafeteriaProject.exe
+  CafeteriaProject.vcxproj -> C:\Users\xosi_\OneDrive\Documentos\Repositories\Design_project_cafeteria\CafeteriaProject\x64\Debug\CafeteriaProject.exe
