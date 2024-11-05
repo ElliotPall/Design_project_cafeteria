@@ -1,4 +1,4 @@
-#pragma once
+/*#pragma once
 
 namespace CafeteriaProject {
 
@@ -830,9 +830,9 @@ namespace CafeteriaProject {
             this->dataGridView1->Size = System::Drawing::Size(946, 654);
             this->dataGridView1->TabIndex = 10;
             this->dataGridView1->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Dashboard::dataGridView1_CellContentClick_2);
-            this->dataGridView1.Rows.Add("Josias Cabrera","TAC", "Male", "30");
-            this->dataGridView1.Rows.Add("Josias Cabrera", "TAC", "Male", "30");
-            this->dataGridView1.Rows.Add("Josias Cabrera", "TAC", "Male", "30");
+            //this->dataGridView1.Rows.Add("Josias Cabrera", "TAC", "Male", "30");
+            //this->dataGridView1.Rows.Add("Josias Cabrera", "TAC", "Male", "30");
+            //this->dataGridView1.Rows.Add("Josias Cabrera", "TAC", "Male", "30");
             // 
             // Name
             // 
@@ -1024,4 +1024,4 @@ static void Main()
     Application.Run(new MainForm());
 }
     }
-}
+}*/

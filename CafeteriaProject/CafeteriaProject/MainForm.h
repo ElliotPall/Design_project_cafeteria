@@ -25,9 +25,13 @@ namespace CafeteriaProject {
                 delete components;
             }
         }
+    private: System::Windows::Forms::Label^ labelLogin;
+    protected:
+
+    protected:
 
     private:
-        System::Windows::Forms::Label^ labelLogin;
+
         System::Windows::Forms::Label^ labelSubtitle;
 
 
@@ -65,12 +69,14 @@ namespace CafeteriaProject {
                this->labelLogin->Font = (gcnew System::Drawing::Font(L"Nirmala UI", 18, System::Drawing::FontStyle::Bold));
                this->labelLogin->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
                    static_cast<System::Int32>(static_cast<System::Byte>(138)));
-               this->labelLogin->Location = System::Drawing::Point(40, 17);
+               this->labelLogin->Location = System::Drawing::Point(27, 11);
+               this->labelLogin->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
                this->labelLogin->Name = L"labelLogin";
-               this->labelLogin->Size = System::Drawing::Size(374, 67);
+               this->labelLogin->Size = System::Drawing::Size(249, 44);
                this->labelLogin->TabIndex = 0;
                this->labelLogin->Text = L"Login";
                this->labelLogin->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+               //this->labelLogin->Click += gcnew System::EventHandler(this, &CafeteriaForm::labelLogin_Click);
                // 
                // labelSubtitle
                // 
@@ -80,9 +86,10 @@ namespace CafeteriaProject {
                    static_cast<System::Byte>(0)));
                this->labelSubtitle->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
                    static_cast<System::Int32>(static_cast<System::Byte>(138)));
-               this->labelSubtitle->Location = System::Drawing::Point(40, 71);
+               this->labelSubtitle->Location = System::Drawing::Point(27, 46);
+               this->labelSubtitle->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
                this->labelSubtitle->Name = L"labelSubtitle";
-               this->labelSubtitle->Size = System::Drawing::Size(374, 47);
+               this->labelSubtitle->Size = System::Drawing::Size(249, 31);
                this->labelSubtitle->TabIndex = 1;
                this->labelSubtitle->Text = L"to get started";
                this->labelSubtitle->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -100,10 +107,10 @@ namespace CafeteriaProject {
                this->buttonContinue->Font = (gcnew System::Drawing::Font(L"Nirmala UI", 11, System::Drawing::FontStyle::Bold));
                this->buttonContinue->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
                    static_cast<System::Int32>(static_cast<System::Byte>(224)));
-               this->buttonContinue->Location = System::Drawing::Point(46, 402);
+               this->buttonContinue->Location = System::Drawing::Point(31, 261);
                this->buttonContinue->Margin = System::Windows::Forms::Padding(0);
                this->buttonContinue->Name = L"buttonContinue";
-               this->buttonContinue->Size = System::Drawing::Size(363, 48);
+               this->buttonContinue->Size = System::Drawing::Size(242, 31);
                this->buttonContinue->TabIndex = 5;
                this->buttonContinue->Text = L"Log in";
                this->buttonContinue->UseVisualStyleBackColor = false;
@@ -116,10 +123,10 @@ namespace CafeteriaProject {
                    static_cast<System::Int32>(static_cast<System::Byte>(224)));
                this->textBoxEmail->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
                this->textBoxEmail->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10));
-               this->textBoxEmail->Location = System::Drawing::Point(46, 195);
-               this->textBoxEmail->Margin = System::Windows::Forms::Padding(3, 4, 3, 4);
+               this->textBoxEmail->Location = System::Drawing::Point(31, 127);
+               this->textBoxEmail->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
                this->textBoxEmail->Name = L"textBoxEmail";
-               this->textBoxEmail->Size = System::Drawing::Size(362, 34);
+               this->textBoxEmail->Size = System::Drawing::Size(242, 25);
                this->textBoxEmail->TabIndex = 2;
                // 
                // textBoxPassword
@@ -130,10 +137,10 @@ namespace CafeteriaProject {
                    static_cast<System::Int32>(static_cast<System::Byte>(224)));
                this->textBoxPassword->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
                this->textBoxPassword->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10));
-               this->textBoxPassword->Location = System::Drawing::Point(46, 289);
-               this->textBoxPassword->Margin = System::Windows::Forms::Padding(3, 4, 3, 4);
+               this->textBoxPassword->Location = System::Drawing::Point(31, 188);
+               this->textBoxPassword->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
                this->textBoxPassword->Name = L"textBoxPassword";
-               this->textBoxPassword->Size = System::Drawing::Size(362, 34);
+               this->textBoxPassword->Size = System::Drawing::Size(242, 25);
                this->textBoxPassword->TabIndex = 3;
                this->textBoxPassword->UseSystemPasswordChar = true;
                // 
@@ -146,9 +153,10 @@ namespace CafeteriaProject {
                    static_cast<System::Byte>(0)));
                this->textBox1->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
                    static_cast<System::Int32>(static_cast<System::Byte>(138)));
-               this->textBox1->Location = System::Drawing::Point(54, 164);
+               this->textBox1->Location = System::Drawing::Point(36, 107);
+               this->textBox1->Margin = System::Windows::Forms::Padding(2);
                this->textBox1->Name = L"textBox1";
-               this->textBox1->Size = System::Drawing::Size(153, 24);
+               this->textBox1->Size = System::Drawing::Size(102, 16);
                this->textBox1->TabIndex = 7;
                this->textBox1->Text = L"Username";
                // 
@@ -161,9 +169,10 @@ namespace CafeteriaProject {
                    static_cast<System::Byte>(0)));
                this->textBox2->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(58)),
                    static_cast<System::Int32>(static_cast<System::Byte>(138)));
-               this->textBox2->Location = System::Drawing::Point(54, 258);
+               this->textBox2->Location = System::Drawing::Point(36, 168);
+               this->textBox2->Margin = System::Windows::Forms::Padding(2);
                this->textBox2->Name = L"textBox2";
-               this->textBox2->Size = System::Drawing::Size(153, 24);
+               this->textBox2->Size = System::Drawing::Size(102, 16);
                this->textBox2->TabIndex = 8;
                this->textBox2->Text = L"Password";
                // 
@@ -176,9 +185,10 @@ namespace CafeteriaProject {
                    System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
                this->textBox3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
                    static_cast<System::Int32>(static_cast<System::Byte>(64)));
-               this->textBox3->Location = System::Drawing::Point(151, 488);
+               this->textBox3->Location = System::Drawing::Point(101, 317);
+               this->textBox3->Margin = System::Windows::Forms::Padding(2);
                this->textBox3->Name = L"textBox3";
-               this->textBox3->Size = System::Drawing::Size(161, 27);
+               this->textBox3->Size = System::Drawing::Size(107, 18);
                this->textBox3->TabIndex = 9;
                this->textBox3->Text = L"Or scan QR code";
                this->textBox3->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -189,9 +199,10 @@ namespace CafeteriaProject {
                this->label1->Font = (gcnew System::Drawing::Font(L"Nirmala UI", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                    static_cast<System::Byte>(0)));
                this->label1->ForeColor = System::Drawing::Color::Green;
-               this->label1->Location = System::Drawing::Point(191, 347);
+               this->label1->Location = System::Drawing::Point(127, 226);
+               this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
                this->label1->Name = L"label1";
-               this->label1->Size = System::Drawing::Size(70, 28);
+               this->label1->Size = System::Drawing::Size(49, 19);
                this->label1->TabIndex = 10;
                this->label1->Text = L"Status";
                // 
@@ -202,17 +213,18 @@ namespace CafeteriaProject {
                this->panel1->Controls->Add(this->labelLogin);
                this->panel1->Controls->Add(this->labelSubtitle);
                this->panel1->Location = System::Drawing::Point(0, 0);
+               this->panel1->Margin = System::Windows::Forms::Padding(2);
                this->panel1->Name = L"panel1";
-               this->panel1->Size = System::Drawing::Size(455, 131);
+               this->panel1->Size = System::Drawing::Size(303, 85);
                this->panel1->TabIndex = 11;
                // 
                // CafeteriaForm
                // 
-               this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
+               this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
                this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
                this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(243)), static_cast<System::Int32>(static_cast<System::Byte>(244)),
                    static_cast<System::Int32>(static_cast<System::Byte>(246)));
-               this->ClientSize = System::Drawing::Size(453, 600);
+               this->ClientSize = System::Drawing::Size(302, 390);
                this->Controls->Add(this->panel1);
                this->Controls->Add(this->label1);
                this->Controls->Add(this->textBox3);
@@ -222,12 +234,18 @@ namespace CafeteriaProject {
                this->Controls->Add(this->textBoxPassword);
                this->Controls->Add(this->buttonContinue);
                this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
-               this->Margin = System::Windows::Forms::Padding(3, 4, 3, 4);
+               this->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
                this->Name = L"CafeteriaForm";
                this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
                this->Text = L"Login Form";
+               this->Load += gcnew System::EventHandler(this, &CafeteriaForm::CafeteriaForm_Load);
                this->panel1->ResumeLayout(false);
                this->ResumeLayout(false);
                this->PerformLayout();
 
            }
+           #pragma endregion
+           private: System::Void CafeteriaForm_Load(System::Object^ sender, System::EventArgs^ e) {
+           }
+    };
+}
