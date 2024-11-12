@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\Dashboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\Dashboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     },
@@ -15,8 +11,12 @@
       "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\AddPersonForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\AddPersonForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+      "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\Dashboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,53 +26,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "MainForm.h",
+              "DocumentMoniker": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h",
+              "RelativeDocumentMoniker": "CafeteriaProject\\MainForm.h",
+              "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h*",
+              "RelativeToolTip": "CafeteriaProject\\MainForm.h*",
+              "ViewState": "AgIAABwBAAAAAAAAAAAAADMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-08T08:21:59.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Dashboard.h",
               "DocumentMoniker": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h",
               "RelativeDocumentMoniker": "CafeteriaProject\\Dashboard.h",
-              "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h",
-              "RelativeToolTip": "CafeteriaProject\\Dashboard.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h*",
+              "RelativeToolTip": "CafeteriaProject\\Dashboard.h*",
+              "ViewState": "AgIAAJwDAAAAAAAAAAAIwKoDAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-05T03:34:23.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddPersonForm.h [Design]",
-              "DocumentMoniker": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\AddPersonForm.h",
-              "RelativeDocumentMoniker": "CafeteriaProject\\AddPersonForm.h",
-              "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\AddPersonForm.h [Design]",
-              "RelativeToolTip": "CafeteriaProject\\AddPersonForm.h [Design]",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.h [Design]",
+              "DocumentMoniker": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h",
+              "RelativeDocumentMoniker": "CafeteriaProject\\Dashboard.h",
+              "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h [Design]*",
+              "RelativeToolTip": "CafeteriaProject\\Dashboard.h [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T03:33:25.242Z"
+              "WhenOpened": "2024-11-05T03:33:23.053Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Dashboard.h [Design]",
-              "DocumentMoniker": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h",
-              "RelativeDocumentMoniker": "CafeteriaProject\\Dashboard.h",
-              "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h [Design]",
-              "RelativeToolTip": "CafeteriaProject\\Dashboard.h [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T03:33:23.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainForm.h [Design]",
               "DocumentMoniker": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h",
               "RelativeDocumentMoniker": "CafeteriaProject\\MainForm.h",
-              "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h [Design]",
-              "RelativeToolTip": "CafeteriaProject\\MainForm.h [Design]",
+              "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h [Design]*",
+              "RelativeToolTip": "CafeteriaProject\\MainForm.h [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T03:33:20.815Z"
+              "WhenOpened": "2024-11-05T03:33:20.815Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -1,5 +1,85 @@
 ﻿  Dashboard.cpp
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(937,1): error C2059: syntax error: '}'
+  (compiling source file 'Dashboard.cpp')
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(937,1): error C2143: syntax error: missing ';' before '}'
+  (compiling source file 'Dashboard.cpp')
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(304,89): error C2039: 'button4_Click': is not a member of 'CafeteriaProject::Dashboard'
+  (compiling source file 'Dashboard.cpp')
+      C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(15,22):
+      see declaration of 'CafeteriaProject::Dashboard'
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(304,89): error C2065: 'button4_Click': undeclared identifier
+  (compiling source file 'Dashboard.cpp')
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(304,70): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  (compiling source file 'Dashboard.cpp')
+      C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(304,70):
+      pointer to member function expected
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(860,26): error C2440: '=': cannot convert from 'const wchar_t [10]' to 'System::Windows::Forms::DataGridViewTextBoxColumn ^'
+  (compiling source file 'Dashboard.cpp')
+      C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(860,26):
+      Reason: cannot convert from 'const wchar_t *' to 'System::Windows::Forms::DataGridViewTextBoxColumn ^'
+      C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(860,26):
+      No user-defined-conversion operator available, or
+      C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(860,26):
+      Cannot convert a native type to a managed type
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(938,1): error C2059: syntax error: '}'
+  (compiling source file 'Dashboard.cpp')
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(938,1): error C2143: syntax error: missing ';' before '}'
+  (compiling source file 'Dashboard.cpp')
+  
   MainForm.cpp
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(937,1): error C2059: syntax error: '}'
+  (compiling source file 'MainForm.cpp')
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(937,1): error C2143: syntax error: missing ';' before '}'
+  (compiling source file 'MainForm.cpp')
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(304,89): error C2039: 'button4_Click': is not a member of 'CafeteriaProject::Dashboard'
+  (compiling source file 'MainForm.cpp')
+      C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(15,22):
+      see declaration of 'CafeteriaProject::Dashboard'
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(304,89): error C2065: 'button4_Click': undeclared identifier
+  (compiling source file 'MainForm.cpp')
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(304,70): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  (compiling source file 'MainForm.cpp')
+      C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(304,70):
+      pointer to member function expected
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(860,26): error C2440: '=': cannot convert from 'const wchar_t [10]' to 'System::Windows::Forms::DataGridViewTextBoxColumn ^'
+  (compiling source file 'MainForm.cpp')
+      C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(860,26):
+      Reason: cannot convert from 'const wchar_t *' to 'System::Windows::Forms::DataGridViewTextBoxColumn ^'
+      C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(860,26):
+      No user-defined-conversion operator available, or
+      C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(860,26):
+      Cannot convert a native type to a managed type
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(938,1): error C2059: syntax error: '}'
+  (compiling source file 'MainForm.cpp')
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(938,1): error C2143: syntax error: missing ';' before '}'
+  (compiling source file 'MainForm.cpp')
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\MainForm.h(5,28): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'MainForm.cpp')
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\MainForm.h(5,28): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'MainForm.cpp')
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\MainForm.cpp(10,20): error C2039: 'CafeteriaForm': is not a member of 'CafeteriaProject'
+      C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(3,11):
+      see declaration of 'CafeteriaProject'
+  
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\MainForm.cpp(10,20): error C2065: 'CafeteriaForm': undeclared identifier
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\MainForm.cpp(10,34): error C2146: syntax error: missing ';' before identifier 'form'
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\MainForm.cpp(10,34): error C2065: 'form': undeclared identifier
+C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\MainForm.cpp(11,21): error C2065: 'form': undeclared identifier
   Generating Code...
-  Dashboard.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  CafeteriaProject.vcxproj -> C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\x64\Debug\CafeteriaProject.exe
