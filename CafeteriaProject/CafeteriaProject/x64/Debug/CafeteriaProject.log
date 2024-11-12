@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  Dashboard.cpp
 C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(937,1): error C2059: syntax error: '}'
   (compiling source file 'Dashboard.cpp')
@@ -90,3 +91,6 @@ C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\Cafeteria
   Dashboard.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   CafeteriaProject.vcxproj -> C:\Users\xosi_\OneDrive\Documentos\Repositories\Design_project_cafeteria\CafeteriaProject\x64\Debug\CafeteriaProject.exe
 >>>>>>> 17802f33c30053d9d8db934b544ea1f91e785535
+=======
+﻿  CafeteriaProject.vcxproj -> C:\Users\xosi_\OneDrive\Documentos\Repositories\Design_project_cafeteria\CafeteriaProject\x64\Debug\CafeteriaProject.exe
+>>>>>>> origin/josias_branch

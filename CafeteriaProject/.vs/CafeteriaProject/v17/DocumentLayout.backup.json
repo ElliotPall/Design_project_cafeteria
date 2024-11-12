@@ -4,15 +4,34 @@
   "Documents": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
 =======
+=======
+      "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\AddPersonForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\AddPersonForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\MainForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+>>>>>>> origin/josias_branch
       "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
 >>>>>>> 17802f33c30053d9d8db934b544ea1f91e785535
       "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\Dashboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\Dashboard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
@@ -25,11 +44,14 @@
 =======
       "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\MainForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+<<<<<<< HEAD
     },
     {
       "AbsoluteMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\AddPersonForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{C676C751-9777-413D-8744-9DAA3DB10B1C}|CafeteriaProject\\CafeteriaProject.vcxproj|solutionrelative:CafeteriaProject\\AddPersonForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
 >>>>>>> 17802f33c30053d9d8db934b544ea1f91e785535
+=======
+>>>>>>> origin/josias_branch
     }
   ],
   "DocumentGroupContainers": [
@@ -39,6 +61,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -71,8 +94,49 @@
 =======
               "ViewState": "AgIAALsDAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
 >>>>>>> 17802f33c30053d9d8db934b544ea1f91e785535
+=======
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cpp",
+              "DocumentMoniker": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.cpp",
+              "RelativeDocumentMoniker": "CafeteriaProject\\Dashboard.cpp",
+              "ToolTip": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.cpp",
+              "RelativeToolTip": "CafeteriaProject\\Dashboard.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T13:25:42.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cpp",
+              "DocumentMoniker": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.cpp",
+              "RelativeDocumentMoniker": "CafeteriaProject\\MainForm.cpp",
+              "ToolTip": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.cpp",
+              "RelativeToolTip": "CafeteriaProject\\MainForm.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T13:19:45.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddPersonForm.h",
+              "DocumentMoniker": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\AddPersonForm.h",
+              "RelativeDocumentMoniker": "CafeteriaProject\\AddPersonForm.h",
+              "ToolTip": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\AddPersonForm.h",
+              "RelativeToolTip": "CafeteriaProject\\AddPersonForm.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+>>>>>>> origin/josias_branch
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T03:34:23.212Z",
+              "WhenOpened": "2024-11-12T13:16:50.083Z",
               "EditorCaption": ""
             },
             {
@@ -81,35 +145,56 @@
               "DocumentIndex": 2,
 =======
               "DocumentIndex": 3,
-              "Title": "AddPersonForm.h [Design]",
-              "DocumentMoniker": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\AddPersonForm.h",
-              "RelativeDocumentMoniker": "CafeteriaProject\\AddPersonForm.h",
-              "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\AddPersonForm.h [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\AddPersonForm.h [Design]",
+              "Title": "MainForm.h",
+              "DocumentMoniker": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h",
+              "RelativeDocumentMoniker": "CafeteriaProject\\MainForm.h",
+              "ToolTip": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h",
+              "RelativeToolTip": "CafeteriaProject\\MainForm.h",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAAPkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T03:33:25.242Z"
+              "WhenOpened": "2024-11-12T13:13:22.539Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
 >>>>>>> 17802f33c30053d9d8db934b544ea1f91e785535
+=======
+              "DocumentIndex": 2,
+              "Title": "Dashboard.h",
+              "DocumentMoniker": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h",
+              "RelativeDocumentMoniker": "CafeteriaProject\\Dashboard.h",
+              "ToolTip": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h",
+              "RelativeToolTip": "CafeteriaProject\\Dashboard.h",
+              "ViewState": "AgIAACQDAAAAAAAAAAAAAJkDAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-05T03:34:23.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> origin/josias_branch
               "Title": "Dashboard.h [Design]",
               "DocumentMoniker": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h",
               "RelativeDocumentMoniker": "CafeteriaProject\\Dashboard.h",
-              "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h [Design]",
+              "ToolTip": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\Dashboard.h [Design]",
+              "RelativeToolTip": "CafeteriaProject\\Dashboard.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-05T03:33:23.053Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 6,
+>>>>>>> origin/josias_branch
               "Title": "MainForm.h [Design]",
               "DocumentMoniker": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h",
               "RelativeDocumentMoniker": "CafeteriaProject\\MainForm.h",
-              "ToolTip": "C:\\Users\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\New PC\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h [Design]",
+              "ToolTip": "C:\\Users\\xosi_\\OneDrive\\Documentos\\Repositories\\Design_project_cafeteria\\CafeteriaProject\\CafeteriaProject\\MainForm.h [Design]",
+              "RelativeToolTip": "CafeteriaProject\\MainForm.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-05T03:33:20.815Z",
               "EditorCaption": " [Design]"
