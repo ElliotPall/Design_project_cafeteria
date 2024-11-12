@@ -34,6 +34,7 @@ C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\Cafeteria
   (compiling source file 'Dashboard.cpp')
   
   MainForm.cpp
+<<<<<<< HEAD
 C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\Dashboard.h(937,1): error C2059: syntax error: '}'
   (compiling source file 'MainForm.cpp')
   
@@ -83,3 +84,9 @@ C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\Cafeteria
 C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\MainForm.cpp(10,34): error C2065: 'form': undeclared identifier
 C:\Users\New PC\Repositories\Design_project_cafeteria\CafeteriaProject\CafeteriaProject\MainForm.cpp(11,21): error C2065: 'form': undeclared identifier
   Generating Code...
+=======
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  Dashboard.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  CafeteriaProject.vcxproj -> C:\Users\xosi_\OneDrive\Documentos\Repositories\Design_project_cafeteria\CafeteriaProject\x64\Debug\CafeteriaProject.exe
+>>>>>>> 17802f33c30053d9d8db934b544ea1f91e785535
