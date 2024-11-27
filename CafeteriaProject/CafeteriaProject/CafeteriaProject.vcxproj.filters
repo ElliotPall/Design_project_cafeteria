@@ -21,6 +21,9 @@
     <ClCompile Include="Dashboard.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="StudentForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainForm.h">
@@ -29,7 +32,10 @@
     <ClInclude Include="Dashboard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AddPersonForm.h">
+    <ClInclude Include="MyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
