@@ -1,8 +1,8 @@
 #pragma once
 
-#include "MyForm.h"
+//#include "add_new_user.h"
 
-namespace CafeteriaProject {
+namespace cafeteria_project {
 
     using namespace System;
     using namespace System::ComponentModel;
@@ -377,7 +377,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(255)));
             this->label1->Location = System::Drawing::Point(85, 178);
             this->label1->Name = L"label1";
-            this->label1->Size = System::Drawing::Size(110, 32);
+            this->label1->Size = System::Drawing::Size(73, 21);
             this->label1->TabIndex = 1;
             this->label1->Text = L"Name/ID";
             this->label1->Click += gcnew System::EventHandler(this, &Dashboard::label1_Click);
@@ -427,7 +427,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox2->Location = System::Drawing::Point(48, 34);
             this->textBox2->Name = L"textBox2";
-            this->textBox2->Size = System::Drawing::Size(247, 54);
+            this->textBox2->Size = System::Drawing::Size(247, 36);
             this->textBox2->TabIndex = 1;
             this->textBox2->Text = L"Home";
             // 
@@ -487,7 +487,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox9->Location = System::Drawing::Point(32, 268);
             this->textBox9->Name = L"textBox9";
-            this->textBox9->Size = System::Drawing::Size(139, 27);
+            this->textBox9->Size = System::Drawing::Size(139, 18);
             this->textBox9->TabIndex = 2;
             this->textBox9->Text = L"Info";
             // 
@@ -514,7 +514,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(246)));
             this->textBox10->Location = System::Drawing::Point(25, 19);
             this->textBox10->Name = L"textBox10";
-            this->textBox10->Size = System::Drawing::Size(299, 48);
+            this->textBox10->Size = System::Drawing::Size(299, 32);
             this->textBox10->TabIndex = 0;
             this->textBox10->Text = L"Graphics";
             // 
@@ -549,7 +549,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(246)));
             this->textBox7->Location = System::Drawing::Point(25, 18);
             this->textBox7->Name = L"textBox7";
-            this->textBox7->Size = System::Drawing::Size(330, 48);
+            this->textBox7->Size = System::Drawing::Size(330, 32);
             this->textBox7->TabIndex = 0;
             this->textBox7->Text = L"Download";
             // 
@@ -584,7 +584,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox6->Location = System::Drawing::Point(40, 268);
             this->textBox6->Name = L"textBox6";
-            this->textBox6->Size = System::Drawing::Size(139, 27);
+            this->textBox6->Size = System::Drawing::Size(139, 18);
             this->textBox6->TabIndex = 2;
             this->textBox6->Text = L"Info";
             // 
@@ -609,7 +609,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(246)));
             this->textBox8->Location = System::Drawing::Point(25, 18);
             this->textBox8->Name = L"textBox8";
-            this->textBox8->Size = System::Drawing::Size(299, 48);
+            this->textBox8->Size = System::Drawing::Size(299, 32);
             this->textBox8->TabIndex = 0;
             this->textBox8->Text = L"Customers";
             // 
@@ -657,7 +657,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox4->Location = System::Drawing::Point(59, 108);
             this->textBox4->Name = L"textBox4";
-            this->textBox4->Size = System::Drawing::Size(147, 59);
+            this->textBox4->Size = System::Drawing::Size(147, 40);
             this->textBox4->TabIndex = 0;
             this->textBox4->Text = L"45561";
             this->textBox4->TextChanged += gcnew System::EventHandler(this, &Dashboard::textBox4_TextChanged);
@@ -673,7 +673,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox11->Location = System::Drawing::Point(25, 108);
             this->textBox11->Name = L"textBox11";
-            this->textBox11->Size = System::Drawing::Size(38, 59);
+            this->textBox11->Size = System::Drawing::Size(38, 40);
             this->textBox11->TabIndex = 2;
             this->textBox11->Text = L"$";
             // 
@@ -688,7 +688,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox5->Location = System::Drawing::Point(41, 189);
             this->textBox5->Name = L"textBox5";
-            this->textBox5->Size = System::Drawing::Size(139, 27);
+            this->textBox5->Size = System::Drawing::Size(139, 18);
             this->textBox5->TabIndex = 1;
             this->textBox5->Text = L"Info";
             // 
@@ -713,7 +713,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(246)));
             this->textBox3->Location = System::Drawing::Point(25, 18);
             this->textBox3->Name = L"textBox3";
-            this->textBox3->Size = System::Drawing::Size(319, 48);
+            this->textBox3->Size = System::Drawing::Size(319, 32);
             this->textBox3->TabIndex = 0;
             this->textBox3->Text = L"Earnings";
             // 
@@ -870,7 +870,7 @@ namespace CafeteriaProject {
                 static_cast<System::Int32>(static_cast<System::Byte>(138)));
             this->textBox21->Location = System::Drawing::Point(66, 38);
             this->textBox21->Name = L"textBox21";
-            this->textBox21->Size = System::Drawing::Size(247, 54);
+            this->textBox21->Size = System::Drawing::Size(247, 36);
             this->textBox21->TabIndex = 1;
             this->textBox21->Text = L"Database";
             // 
@@ -985,8 +985,7 @@ namespace CafeteriaProject {
         HomePannel->Visible = false;
     }
     private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
-        MyForm addpersonform;
-        addpersonform.ShowDialog();
+
     }
     };
 }
@@ -1026,7 +1025,7 @@ namespace CafeteriaProject {
 
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    CafeteriaProject::Dashboard dashboard;
+    cafeteria_project::Dashboard dashboard;
     Application::Run(% dashboard);
 }*/
     //}

@@ -2,7 +2,7 @@
 
 #include "Dashboard.h"
 
-namespace CafeteriaProject {
+namespace cafeteria_project {
 
     using namespace System;
     using namespace System::ComponentModel;

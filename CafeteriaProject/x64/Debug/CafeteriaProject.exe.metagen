@@ -1,4 +1,4 @@
-  CafeteriaProject.MyForm.resources - Embedded, ContainedInManifestFile, 
+  CafeteriaProject.add_new_user.resources - Embedded, ContainedInManifestFile, 
   CafeteriaProject.Dashboard.resources - Embedded, ContainedInManifestFile, 
   CafeteriaProject.MainForm.resources - Embedded, ContainedInManifestFile, 
   CafeteriaProject.StudentForm.resources - Embedded, ContainedInManifestFile, 
@@ -17,15 +17,9 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 	hash=None, flags=None
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
-Class CafeteriaProject.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class cafeteria_project.Dashboard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class CafeteriaProject.Dashboard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class CafeteriaProject.CafeteriaForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class CafeteriaProject.StudentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class cafeteria_project.CafeteriaForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
