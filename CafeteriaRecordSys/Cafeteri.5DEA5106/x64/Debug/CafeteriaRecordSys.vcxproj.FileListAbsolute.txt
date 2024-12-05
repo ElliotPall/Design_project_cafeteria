@@ -1,0 +1,9 @@
+C:\Users\xosi_\OneDrive\Documentos\Repositories\Design_project_cafeteria\Temp\CafeteriaRecordSys\Cafeteri.5DEA5106\x64\Debug\CafeteriaRecordSys.vcxproj.AssemblyReference.cache
+C:\Users\xosi_\OneDrive\Documentos\Repositories\Design_project_cafeteria\Temp\CafeteriaRecordSys\Cafeteri.5DEA5106\x64\Debug\CafeteriaRecordSys.NewUserForm.resources
+C:\Users\xosi_\OneDrive\Documentos\Repositories\Design_project_cafeteria\Temp\CafeteriaRecordSys\Cafeteri.5DEA5106\x64\Debug\CafeteriaRecordSys.vcxproj.GenerateResource.cache
+C:\Users\xosi_\OneDrive\Documentos\Repositories\Temp\CafeteriaRecordSys\Cafeteri.5DEA5106\x64\Debug\CafeteriaRecordSys.vcxproj.AssemblyReference.cache
+C:\Users\xosi_\OneDrive\Documentos\Repositories\Temp\CafeteriaRecordSys\Cafeteri.5DEA5106\x64\Debug\CafeteriaRecordSys.NewUserForm.resources
+C:\Users\xosi_\OneDrive\Documentos\Repositories\Temp\CafeteriaRecordSys\Cafeteri.5DEA5106\x64\Debug\CafeteriaRecordSys.vcxproj.GenerateResource.cache
+C:\Users\xosi_\OneDrive\Documentos\Repositories\Temp\CafeteriaRecordSys\Cafeteri.5DEA5106\x64\Debug\CafeteriaRecordSys.LoginForm.resources
+C:\Users\xosi_\OneDrive\Documentos\Repositories\Temp\CafeteriaRecordSys\Cafeteri.5DEA5106\x64\Debug\CafeteriaRecordSys.Dashboard.resources
+C:\Users\xosi_\OneDrive\Documentos\Repositories\Temp\CafeteriaRecordSys\Cafeteri.5DEA5106\x64\Debug\CafeteriaRecordSys.ScannerInterface.resources

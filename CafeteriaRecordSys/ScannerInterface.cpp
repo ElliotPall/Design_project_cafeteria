@@ -1,0 +1,2 @@
+#include "ScannerInterface.h"
+
